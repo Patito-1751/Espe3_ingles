@@ -851,11 +851,11 @@ body {
             const resultElement = document.getElementById('result');
             const finalMessage = document.getElementById('final-message');
             if (quizData[currentQuestion].correct === selectedOption) {
-                resultElement.textContent = '¡Correcto!';
+                resultElement.textContent = 'Correct!';
                 resultElement.classList.remove('incorrect');
                 resultElement.classList.add('correct');
             } else {
-                resultElement.textContent = 'Incorrecto. Inténtalo de nuevo.';
+                resultElement.textContent = 'Incorrect. Try again.';
                 resultElement.classList.remove('correct');
                 resultElement.classList.add('incorrect');
             }
