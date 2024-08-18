@@ -61,7 +61,14 @@ $conn->close();
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-
+<style>
+    body {
+        background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231103/pngtree-vintage-paper-with-a-textured-green-watercolor-background-image_13805213.png'); /* URL de tu imagen de fondo */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
 <div class="container mx-auto mt-8">
     <div class="max-w-md mx-auto bg-white p-8 rounded shadow-md">
         <h2 class="text-2xl font-bold mb-6 text-center">Student Registration</h2>
