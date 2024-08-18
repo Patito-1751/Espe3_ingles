@@ -742,9 +742,9 @@ body {
         <div class="menu-icon">&#9776;</div> <!-- Icono de menú hamburguesa -->
         <nav class="nav">
             <a href="#inicio"><span class="icon">🏠</span><span>Start</span></a>
-            <a href="#recursos"><span class="icon">📚</span><span>Resources</span></a>
+            <a href="#resources"><span class="icon">📚</span><span>Resources</span></a>
             <a href="#tareas"><span class="icon">📝</span><span>Tasks</span></a>
-            <a href="#foro"><span class="icon">💬</span><span>Forum</span></a>
+            <a href="#forum"><span class="icon">💬</span><span>Forum</span></a>
             <a href="./logout.php"><span class="icon">🚪</span><span>Sign Out</span></a>
             <?php if ($privilegio): ?>
                 <a href="./Registrar_Estudiantes.html"><span class="icon">👩‍🎓</span><span>Register Student</span></a>
