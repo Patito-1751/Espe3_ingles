@@ -75,6 +75,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         .show-password {
             cursor: pointer;
         }
+    body {
+        background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231103/pngtree-vintage-paper-with-a-textured-green-watercolor-background-image_13805213.png'); /* URL de tu imagen de fondo */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     </style>
     <script>
         function togglePassword() {
