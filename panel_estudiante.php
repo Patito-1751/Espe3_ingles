@@ -747,7 +747,7 @@ body {
             <a href="#forum"><span class="icon">💬</span><span>Forum</span></a>
             <a href="./logout.php"><span class="icon">🚪</span><span>Sign Out</span></a>
             <?php if ($privilegio): ?>
-                <a href="./Registrar_Estudiantes.html"><span class="icon">👩‍🎓</span><span>Register Student</span></a>
+                <a href="./registrar_estudiante.php"><span class="icon">👩‍🎓</span><span>Register Student</span></a>
             <?php endif; ?>
         </nav>
     </div>
