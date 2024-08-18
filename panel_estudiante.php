@@ -756,7 +756,7 @@ body {
         </nav>
     </div>
 
-    <div class="content">
+    <div class="">
         <header class="header">
         Welcome to the Student System
         </header>
